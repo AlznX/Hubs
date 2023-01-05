@@ -1,4 +1,4 @@
-local A_1 = game.Players.LocalPlayer.name.."(Loaded Line's Script Hub v2.1.3)"-----message here
+local A_1 = game.Players.LocalPlayer.name.." (Loaded Line's Script Hub v2.1.3)"-----message here
 local A_2 = "All"
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 Event:FireServer(A_1, A_2)
