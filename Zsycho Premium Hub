@@ -1,1 +1,7 @@
-game:GetService("Players").LocalPlayer:Kick("Hello, Unfortunately, this script was patched and no longer in service. You must buy the original demon hub and not use the leaked ones No longer be updated. Thank you Discord: https://discord.gg/ad3ax2Mmem")
+-- New Detection System.
+pcall(function() 
+-- Developer Console Logs
+print("Player: ??? Demon Hub, Leaked version was detected therefore it was patched, You must get the official Demon Hub for you to use this script. Thank you.  Reason: Outdated Version.")
+
+game.Players.LocalPlayer:Kick("You Have Been detected, using Old Solex Premium 0.4, Hub. Please go to the developer console if you believe this was a mistake, or for Information, by clicking F9")
+end)
